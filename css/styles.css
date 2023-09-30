@@ -409,6 +409,8 @@ margin-bottom: 72px;
     transform: translateY(0);
 }
 
+/* Footer */
+
 .end {
     background-color: var(--color-main);
     padding: 100px 0;
