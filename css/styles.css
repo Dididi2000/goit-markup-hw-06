@@ -845,6 +845,54 @@ textarea::placeholder {
         width: 288px;
     }
 
+    .mobile-menu {
+        padding: 72px 24px 40px 16px;
+        position: absolute;
+    }
+
+    .nav-list-mobile {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+        margin-bottom: 168px;
+    }
+
+    .link-nav-mobile {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        text-transform: capitalize;
+    }
+
+    .address-list-mobile {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        margin-bottom: 48px;
+    }
+
+    .studio {
+        color: #404BBF;
+    }
+
+    .link-address-mobile {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        font-style: normal;
+    }
+    
+    .link-email {
+        color: #434455;
+    }
+
+    .mobile-icon {
+        gap: 40px;
+    }
+
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1157.98px) {
