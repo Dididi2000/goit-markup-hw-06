@@ -147,6 +147,19 @@ input {
  
 }
 
+.menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
 .address {
     display: flex;
     font-style: normal;
