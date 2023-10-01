@@ -5,6 +5,19 @@
     justify-content: center;
     align-items: center;
 }
+.main-page-section {
+    padding: 72px 0;
+}
+
+.first-title {
+    margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+   
+}
+
+
 
 .advantages-list {
     flex-direction: column;
@@ -90,13 +103,17 @@ max-width: 288px;
         line-height: 1.11;
         }
 
-    .list-solutions {
-        width: calc((100% - 24px) / 2);
-        max-width: 356px;
-    }
-
     .icon-second {
         display: none;
+    }
+
+    .team-list {
+        gap: 64px 24px;
+    }
+
+    .team-images {
+        flex-wrap: wrap;
+        flex-basis: calc((100% - 24px) / 2);
     }
 
 
